@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedding Image and Video</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <nav>
+        <div class="nav-home">
+            <i class="far fa-bars nav-icon nav-menu"></i>
+            <div class="row a">
+                <i class="fab fa-youtube nav-icon nav-logo"></i>
+                <h2>Youtube</h2 >
+            </div>
+            
+        </div>
+        <div class="search-container row">
+            <input id="search-bar" type="text">
+            <button id="btn-search"><i class="far fa-search nav-icon nav-search-icon"></i></button>
+        </div>
+        <div class="nav-tools row">
+            <i class="fas fa-video-plus nav-icon"></i>
+            <i class="fas fa-th nav-icon"></i>
+            <i class="fas fa-bell nav-icon"></i>
+            <img class="nav-user" src="https://drive.google.com/uc?export=download&id=1tijMwWkz9mIJWslSnou_2w0MiCc3lhBF" alt="">
+        </div>
+    </nav>
+    <div class="main row">
+        <div class="video-content">
+            <div class="video-primary column">
+                <iframe class="video-view"  src="https://www.youtube.com/embed/G81-Z-0ugP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <span class="video-title">CÓ DỪNG ĐƯỢC KHÔNG - LÊ CÁT TRỌNG LÝ [CONCERT CHÚNG TA ĐANG THỞ KÌA]</span>
+                <div class="video-info row">
+                    <div class="video-info-text row">
+                        <span class="video-view-count">31,240 views</span>
+                        <i id="dot" class="fas fa-circle"></i>
+                        <span class="video-publish-date">Feb 1, 2021</span>
+                    </div>
+                    <div class="video-interaction row">
+                        <div class="video-interaction-item row">
+                            <i class="fas fa-thumbs-up video"></i>
+                            <span class="video-interaction-text">359</span>
+                        </div>
+                        <div class="video-interaction-item row">
+                            <i class="fas fa-thumbs-down"></i>
+                            <span class="video-interaction-text">0</span>
+                        </div>
+                        <div class="video-interaction-item row">
+                            <i class="fas fa-share"></i>
+                            <span class="video-interaction-text">SHARE</span>
+                        </div>
+                        <div class="video-interaction-item row">
+                            <i class="fas fa-list-music"></i>
+                            <span class="video-interaction-text">SAVE</span>
+                        </div>
+                        <div class="video-interaction-item row">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-description row">
+                <div class="video-owner">
+                    <img class="video-owner-img" src="https://yt3.ggpht.com/ytc/AKedOLTTfjy_ujkCBxL-0Z-j0y399-4d0xWU7MOefgkx=s176-c-k-c0x00ffffff-no-rj" alt="">
+                </div>
+                <div class="video-description-text column">
+                    <h3 class="video-owner-name">Hau Dinh</h3>
+                    <span class="owner-subcribe-count">1.45K subscribers</span>
+                    <span class="video-secondary-info">
+                        Có dừng được không?
+                        <br>
+                        Xem ánh mưa bay
+                        <br>
+                        Loang trong tia nắng                    
+                    </span>
+                </div>
+                <div>
+                    <button id="btn-subcribe">SUBCRIBE</button>
+                </div>
+            </div>
+
+            <div></div>
+        </div>
+
+        <div class="side-bar">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</body>
+</html>

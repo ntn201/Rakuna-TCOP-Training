@@ -1,0 +1,200 @@
+*{
+    font-family: Roboto, Arial, sans-serif;
+}
+html, body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.column{
+    display: flex;
+    flex-flow: column;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
+.nav-home{
+    width: 200px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .nav-icon:hover{
+    cursor: pointer;
+}
+
+.nav-menu{
+    font-size: 20px;
+}
+
+.nav-logo{
+    color: red;
+    font-size: 32px;
+}
+.search-container{
+    height: 30px;
+}
+
+#search-bar{
+    width: 450px;
+    height: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-right: 0;
+}
+
+#btn-search{
+    width: 50px;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.nav-tools{
+    width: 180px;
+    justify-content: space-between;
+}
+
+.nav-tools .nav-icon{
+    font-size: 20px;
+}
+
+.nav-user{
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.nav-user:hover{
+    cursor: pointer;
+}
+
+.main{
+    width: 100%;
+    height: 800px;
+    padding: 30px 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%); 
+    justify-content: space-around;
+}
+
+.video-content{
+    width: 65%;
+    height: 100%;
+}
+
+.video-primary{
+    width: 100%;
+}
+
+.video-view{
+    width: 100%;
+    height: 500px;
+}
+
+.video-title{
+    margin: 12px 0;
+}
+
+.video-info{
+    width: 100%;
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.video-info-text{
+    width: 20%;
+    justify-content: space-between;
+}
+
+#dot{
+    font-size: 4px;
+}
+
+.video-interaction{
+    font-size: 16px;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.video-interaction-text{
+    margin-left: 5px
+}
+
+.side-bar{
+    width: 25%;
+    height: 100%;
+}
+
+.video-description{
+    width: 100%;
+    height: 170px;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    border-top: 1px solid rgb(144, 144, 144);
+    border-bottom: 1px solid rgb(144, 144, 144);
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.video-owner{
+    margin-right: 10px; 
+}
+
+.video-owner-img{
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.video-description-text{
+    width: 80%;
+}
+
+.video-owner-name{
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.owner-subcribe-count{
+    margin-bottom: 16px;
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+}
+
+.video-secondary-info{
+    font: 12px;
+}
+
+#btn-subcribe{
+    border-radius: 0px;
+    border: none;
+    background-color: rgb(204,0,0);
+    color: white;
+    font-weight: bold;
+    width: 110px;
+    height: 40px;
+}
+
