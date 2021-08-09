@@ -80,8 +80,6 @@ nav .nav-icon:hover{
     width: 32px;
     height: 32px;
     border-radius: 100%;
-    object-fit: cover;
-    object-position: center;
 }
 
 .nav-user:hover{
@@ -165,7 +163,6 @@ nav .nav-icon:hover{
 .video-owner-img{
     width: 48px;
     height: 48px;
-    object-fit: cover;
     border-radius: 100%;
 }
 
@@ -198,3 +195,9 @@ nav .nav-icon:hover{
     height: 40px;
 }
 
+
+
+.avatar{
+    object-fit: cover;
+    object-position: center;
+}
