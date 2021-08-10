@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project: HTML Forms</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="row">
+        <div class="column">
+            <span>Already have an intuit account?</span>
+            <a class="forgot-password-link" href="#">I forgot my User ID or Password</a>
+        </div>
+        <button id="btn-signin">
+            <i class="fas fa-lock-alt btn-signin-icon"></i>
+            <span class="btn-signin-text">Sign in</span>
+        </button>
+    </nav>
+    <div class="main column">
+        <div class="logo-container column">
+            <a class="logo-intuit" href="#"></a>
+            <ul class="mini-logo-container row">
+                <li class="mini-logo-wrapper row">
+                    <a class="logo-mint mini-logo" href="#"></a>
+                    <span class="mini-logo-label">mint</span>
+                </li>
+                <li class="mini-logo-wrapper row">
+                    <a class="logo-quick-books mini-logo" href="#"></a>
+                    <span class="mini-logo-label">quickbooks</span>
+
+                </li>
+                <li class="mini-logo-wrapper row">
+                    <a class="logo-turbotax mini-logo" href="#"></a>
+                    <span class="mini-logo-label">turbotax</span>
+                </li>
+               
+            </ul>
+        </div>
+        <form action="" class="form column">
+            <h2 class="form-header">Create an Intuit account</h2>
+            <span class="form-sub-header">One account for everything Intuit, including Mint.</span>
+            <a class="form-link" href="#">Learn more</a>
+            <div class="form-field-container column">
+                <fieldset class="form-item column">
+                    <label class="form-label" for="field-email">Email address</label>
+                    <input class="form-field" type="text" id="field-email">
+                </fieldset>
+                <fieldset class="form-item column">
+                    <label class="form-label" for="field-phone">Phone <span>(recommended)</span></label>
+                    <input class="form-field" id="field-phone" type="text">
+                    <span class="form-notice">Standard call, message, or data rates may apply</span>
+                </fieldset>
+                <fieldset class="form-item column">
+                    <label class="form-label" for="field-password">Password</label>
+                    <input class="form-field" id="field-password" type="text">
+                </fieldset>
+            </div>
+            <button id="btn-signup">
+                <i class="fas fa-lock-alt btn-signup-icon"></i>
+                <span class="btn-signup-text">Create Account</span>
+            </button>
+            <span class="form-term">By selecting Create Account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="">Global Privacy Statement.</a></span>
+        </form>
+    </div>
+    <footer>
+        <a href="#">Privacy Setting</a>
+    </footer>
+</body>
+</html>
