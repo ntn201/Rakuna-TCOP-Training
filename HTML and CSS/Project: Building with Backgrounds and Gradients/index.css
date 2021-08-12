@@ -186,16 +186,17 @@ footer a:visited{
     text-decoration: none;
 }
 
-footer ul li::after{
-    display: inline-block;
+footer ul li{
+    /* display: inline-block;
     content: "";
     margin: 0px 4px;
     width: 1px;
     height: 10px;
-    background-color: rgb(56, 56, 56);
-    border: none;
+    background-color: rgb(56, 56, 56); */
+    border-right: 1px solid black;
+    padding: 0 4px;
 }
 
-footer ul li:last-child:after{
-    display: none;
+footer ul li:last-child{
+    border-right: none;
 }
